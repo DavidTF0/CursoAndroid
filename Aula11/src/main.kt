@@ -6,9 +6,9 @@ fun main() {
     val impressora = Impressora()
 
 
-    impressora.adicionaItemNaLista(foto)
-    impressora.adicionaItemNaLista(documento)
-    impressora.adicionaItemNaLista(contrato)
+    impressora.adicionaItemNaLista(foto, documento, contrato)
+//    impressora.adicionaItemNaLista(documento)
+//    impressora.adicionaItemNaLista(contrato)
 
     impressora.imprimir()
 }

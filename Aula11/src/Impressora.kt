@@ -2,8 +2,8 @@ class Impressora() {
 
     var listaImprimivel = mutableListOf<Imprimivel>()
 
-    fun adicionaItemNaLista(imprimivel: Imprimivel){
-        listaImprimivel.add(imprimivel)
+    fun adicionaItemNaLista(vararg imprimivel: Imprimivel){
+        listaImprimivel.addAll(imprimivel)
     }
 
     fun imprimir(){
