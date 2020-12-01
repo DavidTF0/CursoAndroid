@@ -1,4 +1,12 @@
 package exercicio03
 
-data class Prova(val notas:Int) {
+ class Prova() {
+
+    fun somaTotal(set: Set<Int>){
+        var soma:Int = 0
+
+        set.forEach{soma += it}
+
+        println(soma)
+    }
 }
